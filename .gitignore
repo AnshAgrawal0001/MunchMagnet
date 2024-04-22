@@ -1,0 +1,10 @@
+.DS_Store
+.env
+db_restaurant_init.js
+index.html
+menu.js
+mongodb_atlas.txt
+name.js
+node_modules/
+price.js
+restaurants.js
