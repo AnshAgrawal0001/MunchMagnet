@@ -17,9 +17,10 @@
     ></script>
     <div class="container">
       <%- //include('header.ejs') %>
-      <header><%-include('restaurant_card.ejs',{restaurant})%></header>
+      <header><%- include('restaurant_card.ejs',{restaurant}) %></header>
       <div class="list-container">
-        <% let {menu,_id} = restaurant for(let dish of menu) { %> <%-
+        <% let {menu,_id} = restaurant;
+        for(let dish of menu) { %> <%-
         include('dish_card.ejs', {dish,_id}) %> <% } %>
       </div>
       <%- include('item_footer.ejs') %>
