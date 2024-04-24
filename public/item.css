@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(#FFF8DC, #F7C566 , #DC6B19, #DC6B19 , #F7C566 , #FFF8DC);
+  background: linear-gradient(to left, #FFF8DC, #F7C566 , #DC6B19, #DC6B19 , #F7C566 , #FFF8DC);
 }
 .menu-item {
     display: flex;
