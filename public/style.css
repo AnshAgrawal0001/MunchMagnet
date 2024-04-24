@@ -54,7 +54,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: unset;
   background-color: rgba(0, 0, 0, 0.373);
   /* background: linear-gradient(#ea4f8a, #444345); */
   color: aliceblue;
